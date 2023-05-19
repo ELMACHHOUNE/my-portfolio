@@ -22,7 +22,7 @@ export const Blogs = [
         name:"I have successfully completed The UX/UI Design course at Orange digital center Rabat collaborate with GOMYCODE and received my certificate",
         tags:["UX", "UI", "Figma"],
         date:"2 Feb to 24 May, 2023",
-        imgSrc:"https://media.licdn.com/dms/image/D4E22AQFDDJY_58lIqQ/feedshare-shrink_1280/0/1680778894055?e=1685577600&v=beta&t=zK8BQPiWzRFw45ip_xEUKFPexe117EN5L1J4vLsOS_o",
+        imgSrc:"https://media.licdn.com/dms/image/D4E22AQHc0RmO9xYwqA/feedshare-shrink_1280/0/1684486523797?e=1687392000&v=beta&t=IT5YTGK9IYFX98ITfSIjHlAYd629vdmXozrQOJ_TIxo",
         link:"https://www.linkedin.com/posts/mohamed-el-machhoune_ux-uidesign-certificateachievement-activity-7065248571792453634-oqA5?utm_source=share&utm_medium=member_desktop"
     }
 
