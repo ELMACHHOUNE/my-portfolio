@@ -53,17 +53,6 @@ const SocialIcons = (props) => {
         animate={{ scale: [0, 1, 1.5, 1] }}
         transition={{ type: "spring", duration: 1, delay: 1.2 }}
       >
-        <a
-          style={{ color: "inherit" }}
-          target="_blank"
-          href={"https://twitter.com/med_elmachhoune"}
-        >
-          <Twitter
-            width={25}
-            height={25}
-            fill={props.theme === "dark" ? DarkTheme.text : DarkTheme.body}
-          />
-        </a>
       </motion.div>
       <motion.div
         initial={{scale:0 }}
@@ -73,7 +62,7 @@ const SocialIcons = (props) => {
         <a
           style={{ color: "inherit" }}
           target="_blank"
-          href={"https://www.facebook.com/medo.elmachhoune"}
+          href={"https://www.facebook.com/m.elmachhoune"}
         >
           <Facebook
             width={25}
