@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { keyframes, ThemeProvider } from 'styled-components'
+import styled, {  ThemeProvider } from 'styled-components'
 import {DarkTheme} from './Themes';
 
 
@@ -16,12 +16,6 @@ width: 100vw;
 height:100vh;
 position: relative;
 overflow: hidden;
-`
-const float = keyframes`
-0% { transform: translateY(-10px) }
-50% { transform: translateY(15px) translateX(15px) }
-100% { transform: translateY(-10px) }
-
 `
 const Spaceman = styled.div`
 position: absolute;

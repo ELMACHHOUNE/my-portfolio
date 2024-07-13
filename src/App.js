@@ -2,7 +2,9 @@ import { Routes, Route, useLocation } from "react-router-dom";
 import { ThemeProvider } from "styled-components";
 import { lightTheme } from "./components/Themes";
 import { AnimatePresence } from "framer-motion";
-import ReactGA4 from 'react-ga4';
+import GlobalStyle from "./globalStyles";
+import ReactGA4 from 'react-ga4'; // Import ReactGA4
+import React, { useEffect } from 'react'; 
 
 
 //Components
@@ -13,18 +15,16 @@ import WorkPage from "./components/WorkPage";
 import MySkillsPage from "./components/MySkillsPage";
 import SoundBar from "./subComponents/SoundBar";
 
-
 function App() {
   const location = useLocation();
 
   useEffect(() => {
-    ReactGA4.initialize('G-4VBLQL8VXS'); // Use your Measurement ID
+    ReactGA4.initialize('G-4VBLQL8VXS'); // Your GA4 Measurement ID
   }, []);
 
   useEffect(() => {
     ReactGA4.send({ hitType: "pageview", page: location.pathname + location.search });
-  }, [location]);
-
+  }, [location]); // Track on location changes
   return (
     <>
       <GlobalStyle />
